@@ -1,10 +1,10 @@
 {
-  "name": "temp",
+  "name": "base",
   "version": "1.0.0",
   "description": "Gulpscript",
   "scripts": {
-    "start": "gulp watch",
-    "test": "gulp test"
+    "start": "cult",
+    "test": "cult test"
   },
   "keywords": [
     "gulp",

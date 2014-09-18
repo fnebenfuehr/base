@@ -1,6 +1,6 @@
 $ = jquery = require 'jquery'
 
-Hello = require './todo/hello'
+Hello = require './home/hello'
 
 $(document).ready ->
   hello = new Hello()
