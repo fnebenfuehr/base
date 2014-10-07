@@ -4,7 +4,6 @@ startTime = 0
 # Provides gulp style logs to the bundle method in browserify.coffee
 bundleLogger =
 
-
   start: ->
     startTime = process.hrtime()
     g.util.log('Running', g.util.colors.green("'bundle'") + '...')
